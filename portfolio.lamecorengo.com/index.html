@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="description" content="Lameck Orengo — Data Science graduate working in AI response evaluation, data annotation, and quality review." />
+    <meta property="og:title" content="Lameck Orengo — AI Evaluation & Data Science" />
+    <meta property="og:description" content="Human judgment and data science for clearer, more reliable AI." />
+    <meta property="og:url" content="https://portfolio.lamecorengo.com/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <title>Lameck Orengo — portfolio.lamecorengo.com</title>
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("lameck-portfolio-theme");
+          document.documentElement.dataset.theme = savedTheme === "light" ? "light" : "dark";
+          document.querySelector('meta[name="theme-color"]').content = savedTheme === "light" ? "#F5F4F0" : "#050505";
+        } catch {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+    <link rel="preload" href="assets/fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/dm-mono-latin-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Lameck Orengo, home">
+        <span class="wordmark-symbol" aria-hidden="true">L<span>.</span></span>
+        <span class="wordmark-name">LAMECK ORENGO <small>AI QUALITY · DATA SCIENCE</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work"><span>01</span> WORK</a>
+        <a href="#about"><span>02</span> PROFILE</a>
+        <a href="#capabilities"><span>03</span> EXPERTISE</a>
+        <a href="#background"><span>04</span> BACKGROUND</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Light appearance" aria-pressed="false" title="Switch to light mode">
+        <svg class="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <g class="theme-icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.35">
+            <circle cx="12" cy="12" r="3.35" />
+            <path d="M12 2.6v2.1M12 19.3v2.1M21.4 12h-2.1M4.7 12H2.6M18.65 5.35l-1.5 1.5M6.85 17.15l-1.5 1.5M18.65 18.65l-1.5-1.5M6.85 6.85l-1.5-1.5" />
+          </g>
+          <path class="theme-icon-moon" d="M19.15 15.1A7.6 7.6 0 0 1 8.9 4.85 7.7 7.7 0 1 0 19.15 15.1Z" />
+        </svg>
+      </button>
+      <a class="header-contact magnetic" href="#contact"><span>LET’S TALK</span><span class="arrow" aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#work"><span>01</span> Selected work <i>↗</i></a>
+        <a href="#about"><span>02</span> Profile <i>↗</i></a>
+        <a href="#capabilities"><span>03</span> Expertise <i>↗</i></a>
+        <a href="#background"><span>04</span> Background <i>↗</i></a>
+        <a href="#contact"><span>05</span> Get in touch <i>↗</i></a>
+      </nav>
+      <p>AI EVALUATION · DATA SCIENCE <span>© <span data-year></span></span></p>
+    </div>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-meta mono reveal">
+          <span><i class="status-dot"></i> OPEN TO REMOTE CONTRACT & FREELANCE</span>
+          <span class="hero-index">KENYA / EAT · UTC+3</span>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-line"></span> AI QUALITY × DATA SCIENCE × HUMAN JUDGMENT</p>
+          <h1 id="hero-title" class="hero-title">
+            <span class="title-line"><span class="line-inner">AI, made</span></span>
+            <span class="title-line title-line-2"><span class="line-inner">more <em class="sapphire-hero">human.</em></span></span>
+          </h1>
+        <div class="hero-under reveal">
+            <p>I evaluate AI responses for accuracy, clarity, helpfulness, and safety—<br class="desktop-break" />bringing data science foundations to careful human review.</p>
+            <div class="hero-actions">
+              <a class="button button-light magnetic" href="#work"><span>EXPLORE SELECTED WORK</span><span class="button-arrow" aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#contact">HIRE ME <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-proof-strip" aria-label="Professional details">
+              <div><span class="mono">ACADEMIC FOUNDATION</span><strong>2019—22</strong><small>Data Science · JKUAT</small></div>
+              <div><span class="mono">WORKING MODE</span><strong>Remote</strong><small>Kenya · UTC+3</small></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" data-tilt aria-label="A portrait of Lameck Orengo framed by polished chrome">
+          <div class="art-grid" aria-hidden="true"></div>
+          <div class="art-light" aria-hidden="true"></div>
+          <svg class="hero-sculpture" viewBox="0 0 720 720" role="img" aria-labelledby="sculpture-title">
+            <title id="sculpture-title">A folded chrome ribbon, a study in signal and judgment</title>
+            <defs>
+              <linearGradient id="face-a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f5ef"/><stop offset=".16" stop-color="#636363"/><stop offset=".33" stop-color="#171717"/><stop offset=".53" stop-color="#b9b8b2"/><stop offset=".72" stop-color="#282828"/><stop offset=".9" stop-color="#dedbd3"/><stop offset="1" stop-color="#424242"/></linearGradient>
+              <linearGradient id="face-b" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#161616"/><stop offset=".24" stop-color="#777772"/><stop offset=".48" stop-color="#202020"/><stop offset=".74" stop-color="#a7a69f"/><stop offset="1" stop-color="#101010"/></linearGradient>
+              <linearGradient id="face-c" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#070707"/><stop offset=".35" stop-color="#666660"/><stop offset=".58" stop-color="#d7d5ce"/><stop offset=".78" stop-color="#343434"/><stop offset="1" stop-color="#0a0a0a"/></linearGradient>
+              <filter id="sculpture-shadow" x="-.4" y="-.4" width="1.8" height="1.8"><feGaussianBlur stdDeviation="22"/></filter>
+            </defs>
+            <ellipse cx="365" cy="560" rx="206" ry="38" fill="#000" opacity=".76" filter="url(#sculpture-shadow)"/>
+            <g class="sculpture-shape">
+              <path d="M351 96c-100 12-177 87-196 183-15 74 8 158 69 207-28-49-33-109-18-159 25-83 96-126 179-137 75-10 126-39 141-95-47-8-105-6-175 1Z" fill="url(#face-a)" stroke="#f3f0e7" stroke-opacity=".32" stroke-width="1.2"/>
+              <path d="M224 486c63 65 180 84 278 38 75-35 121-103 126-181-20 56-70 90-131 103-86 18-171-1-225-46-49-41-69-88-67-139-30 74-24 163 19 225Z" fill="url(#face-b)" stroke="#f3f0e7" stroke-opacity=".3" stroke-width="1.2"/>
+              <path d="M365 95c60 7 109 42 137 94 29 53 29 119-2 172-31 52-92 83-166 86-48 2-85 18-107 48 69 31 166 34 246-2 98-44 156-139 140-235-16-98-108-172-248-163Z" fill="url(#face-c)" stroke="#fff" stroke-opacity=".2" stroke-width="1.2"/>
+              <path d="M218 278c41-86 114-133 206-142" fill="none" stroke="#fff" stroke-opacity=".72" stroke-width="1.1"/>
+              <path d="M270 514c65 27 153 23 215-7" fill="none" stroke="#fff" stroke-opacity=".48" stroke-width="1"/>
+              <path d="M498 181c25 42 31 92 17 139" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1"/>
+            </g>
+          </svg>
+          <figure class="hero-portrait-frame">
+            <img class="hero-portrait-image" src="assets/lameck-orengo.jpeg" alt="Lameck Orengo, AI quality and data science professional." fetchpriority="high" decoding="async" />
+            <div class="hero-portrait-fallback" hidden role="img" aria-label="Portrait of Lameck Orengo unavailable"><span aria-hidden="true">LO</span><small aria-hidden="true">PORTRAIT TEMPORARILY UNAVAILABLE</small></div>
+            <figcaption class="hero-portrait-caption mono"><span>SUBJECT / LO—01</span><span>KENYA · EAT</span></figcaption>
+          </figure>
+          <div class="hero-brand-plate" aria-label="Lameck Orengo, AI quality and data science">
+            <span class="hero-brand-symbol" aria-hidden="true">L<span>.</span></span>
+            <span class="hero-brand-name">LAMECK ORENGO<small>AI QUALITY · DATA SCIENCE</small></span>
+            <span class="hero-brand-mark mono" aria-hidden="true">01<br />/—</span>
+          </div>
+          <div class="art-label mono"><span>HUMAN REVIEW / MACHINE OUTPUTS</span><span>KENYA · EAT</span></div>
+          <span class="art-crosshair crosshair-one" aria-hidden="true">+</span>
+          <span class="art-crosshair crosshair-two" aria-hidden="true">+</span>
+        </div>
+        <div class="hero-bottom mono reveal"><span>DATA SCIENCE GRADUATE · AI EVALUATION</span><a href="#work">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-side-note mono" aria-hidden="true">PEOPLE<br />IN THE LOOP</div>
+      </section>
+
+      <section class="intro section-shell" id="intro" aria-label="Introduction">
+        <p class="section-kicker mono reveal"><span>01 / A POINT OF VIEW</span><span>HUMAN JUDGMENT MATTERS.</span></p>
+        <p class="intro-statement reveal" data-word-fill aria-label="A model can produce an answer. A person decides if it holds up."><span class="statement-inner"><span class="fill-word">A</span> <span class="fill-word">model</span> <span class="fill-word">can</span> <span class="fill-word">produce</span> <span class="fill-word">an</span> <span class="fill-word">answer.</span><br /><span class="fill-word">A</span> <span class="fill-word">person</span> <span class="fill-word">decides</span> <span class="fill-word">if</span> <span class="fill-word">it</span> <em class="sapphire-text"><span class="fill-word">holds</span> <span class="fill-word">up.</span></em></span></p>
+        <p class="manifesto-subline reveal">Guidelines first. Edge cases taken seriously.<br /><em>Findings made clear.</em></p>
+        <span class="intro-mark" aria-hidden="true">✳</span>
+      </section>
+
+      <section class="portfolio-chapter" aria-label="Selected work, profile, expertise, education, and contact">
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> SELECTED ACADEMIC WORK</p><h2 id="work-title">Evidence over <em class="sapphire-text">assumption.</em></h2></div>
+          <p class="section-note">Data Science projects at JKUAT.<br />Kenya · 2019–2022</p>
+        </div>
+
+        <article class="project project-large reveal" data-tilt>
+          <a class="project-visual visual-evaluation" href="#contact" aria-label="Discuss Lameck's machine learning evaluation work">
+            <div class="visual-grain" aria-hidden="true"></div>
+            <span class="visual-stamp mono">MODEL EVALUATION<br />REGRESSION / CLASSIFICATION</span>
+            <div class="evaluation-composition" aria-hidden="true"><span class="eval-axis"></span><span class="eval-ring eval-ring-one"></span><span class="eval-ring eval-ring-two"></span><span class="eval-point"></span><span class="eval-ray eval-ray-one"></span><span class="eval-ray eval-ray-two"></span><span class="eval-ray eval-ray-three"></span></div>
+            <p class="evaluation-words">Accuracy <i class="sapphire-text">Precision</i> Recall</p>
+            <div class="visual-bottom mono"><span>MEASURED AGAINST MODEL PERFORMANCE</span><span class="visual-open">DISCUSS <b>↗</b></span></div>
+            <span class="project-cursor-label">EXPLORE <b>↗</b></span>
+          </a>
+          <div class="project-meta"><div><p class="project-number mono">01 <span>— JKUAT ACADEMIC PROJECTS</span></p><h3>Model evaluation</h3><p class="project-description">Built and evaluated regression and classification models, using accuracy, precision, and recall to measure performance.</p></div><div class="project-details mono"><span>MACHINE LEARNING · MODEL EVALUATION</span><span>JKUAT / 2019–2022</span></div></div>
+        </article>
+
+        <div class="project-pair">
+          <article class="project project-editorial reveal" data-tilt>
+            <a class="project-visual visual-data" href="#contact" aria-label="Discuss Lameck's data analysis work">
+              <div class="data-grid" aria-hidden="true"></div>
+              <svg class="data-trace" viewBox="0 0 620 440" aria-hidden="true"><path d="M42 323C104 309 109 255 170 265s74 68 126 40 61-105 116-96 62 66 105 15 50-76 61-99"/><path class="trace-secondary" d="M42 358h536M42 80v278"/><circle cx="170" cy="265" r="5"/><circle cx="296" cy="305" r="5"/><circle cx="412" cy="209" r="5"/><circle cx="517" cy="224" r="5"/></svg>
+              <p class="data-title">From raw<br /><em class="sapphire-text">to useful.</em></p>
+              <span class="data-caption mono">PYTHON · SQL · RESEARCH QUESTIONS</span>
+              <div class="visual-bottom mono"><span>CLEAN / ANALYZE / VISUALIZE</span><span class="visual-open">DISCUSS <b>↗</b></span></div>
+              <span class="project-cursor-label">EXPLORE <b>↗</b></span>
+            </a>
+            <div class="project-meta"><div><p class="project-number mono">02 <span>— JKUAT ACADEMIC PROJECTS</span></p><h3>Data with direction</h3><p class="project-description">Cleaned, analyzed, and visualized datasets with Python and SQL to answer defined research questions.</p></div><div class="project-details mono"><span>PYTHON · SQL · DATA VISUALIZATION</span><span>JKUAT / 2019–2022</span></div></div>
+          </article>
+          <article class="project project-editorial reveal" data-tilt>
+            <a class="project-visual visual-report" href="#contact" aria-label="Discuss Lameck's data science reporting work">
+              <div class="report-sheet" aria-hidden="true"><span class="report-index mono">RESEARCH NOTE / 03</span><b>METHOD</b><i></i><i></i><b>FINDING</b><i></i><i></i><i></i><span class="report-rule"></span><span class="report-seal">LO</span></div>
+              <p class="report-title">Clarity is<br /><em class="sapphire-text">part of the work.</em></p>
+              <span class="report-caption mono">METHODS → FINDINGS → PEOPLE</span>
+              <div class="visual-bottom mono"><span>WRITING FOR NON-TECHNICAL READERS</span><span class="visual-open">DISCUSS <b>↗</b></span></div>
+              <span class="project-cursor-label">EXPLORE <b>↗</b></span>
+            </a>
+            <div class="project-meta"><div><p class="project-number mono">03 <span>— JKUAT ACADEMIC PROJECTS</span></p><h3>Findings, made clear</h3><p class="project-description">Wrote reports explaining methods and findings to non-technical readers, following detailed specifications and deadlines.</p></div><div class="project-details mono"><span>RESEARCH · TECHNICAL COMMUNICATION</span><span>JKUAT / 2019–2022</span></div></div>
+          </article>
+        </div>
+        <aside class="proof-panel reveal" aria-labelledby="proof-title">
+          <div class="proof-panel-intro">
+            <p class="mono">PRACTICE / FOUNDATION</p>
+            <h3 id="proof-title">Grounded in<br /><em>careful work.</em></h3>
+            <p>Evidence from formal study and academic projects, brought to thoughtful AI review.</p>
+          </div>
+          <div class="proof-facts">
+            <article><span class="proof-index mono">01 / EDUCATION</span><strong>BSc</strong><p>Data Science<br />JKUAT · 2019–2022</p></article>
+            <article><span class="proof-index mono">02 / PROJECT WORK</span><strong>03</strong><p>Model evaluation<br />Analysis · reporting</p></article>
+            <article><span class="proof-index mono">03 / PRACTICE AREAS</span><strong>04</strong><p>AI evaluation<br />Annotation · data · reports</p></article>
+          </div>
+        </aside>
+        <p class="work-disclaimer mono">THREE FACETS OF ACADEMIC PROJECT WORK · JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY.</p>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-kicker mono reveal"><span>02 / PROFILE</span><span>LAMECK ORENGO · KENYA</span></div>
+        <div class="about-layout">
+          <figure class="about-portrait reveal">
+            <img src="assets/lameck-orengo.jpeg" alt="Portrait of Lameck Orengo." loading="lazy" />
+            <figcaption class="mono"><span>LAMECK ORENGO</span><span>DATA SCIENCE · KENYA</span></figcaption>
+          </figure>
+          <div class="about-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> DATA SCIENCE · AI QUALITY</p><h2 id="about-title">Human judgment,<br /><em class="sapphire-text">grounded in data.</em></h2><p class="about-body">I’m Lameck Orengo, a Data Science graduate from Jomo Kenyatta University of Agriculture and Technology. I evaluate AI outputs for accuracy, clarity, helpfulness, and safety against detailed rubrics.</p><p class="about-body about-body-muted">My approach is guideline-first: pay attention to edge cases, protect data confidentiality, communicate clearly, and meet the deadline. I work professionally in English and speak fluent Kiswahili.</p><a class="text-link about-link" href="#background">MY BACKGROUND <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="capabilities section-shell" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-kicker mono reveal"><span>03 / EXPERTISE</span><span>HUMAN REVIEW · TECHNICAL FOUNDATIONS</span></div>
+        <div class="capabilities-heading reveal"><h2 id="capabilities-title">Careful work.<br /><em class="sapphire-text">Clear standards.</em></h2><p>Practical skills for reviewing AI outputs, preparing data, and explaining what the analysis shows.</p></div>
+        <div class="capability-list">
+          <div class="capability-row reveal"><span class="capability-index mono">01</span><h3><span class="sapphire-text">AI evaluation</span> <i>↗</i></h3><p>Response ranking · rubric scoring · fact-checking · preference feedback</p></div>
+          <div class="capability-row reveal"><span class="capability-index mono">02</span><h3>Annotation & quality <i>↗</i></h3><p>Data labeling · content moderation · QA · error and edge-case review</p></div>
+          <div class="capability-row reveal"><span class="capability-index mono">03</span><h3>Data science <i>↗</i></h3><p>Python · pandas · NumPy · scikit-learn · SQL · statistics</p></div>
+          <div class="capability-row reveal"><span class="capability-index mono">04</span><h3>Tools & reporting <i>↗</i></h3><p>Excel · Google Sheets · Jupyter · Git/GitHub · clear written reports</p></div>
+        </div>
+      </section>
+
+      <section class="background section-shell" id="background" aria-labelledby="background-title">
+        <div class="section-kicker mono reveal"><span>04 / BACKGROUND</span><span>FORMAL STUDY · CONTINUING PRACTICE</span></div>
+        <div class="background-layout">
+          <div class="background-heading reveal"><p class="eyebrow"><span class="eyebrow-line"></span> EDUCATION</p><h2 id="background-title">A foundation<br />in <em class="sapphire-text">data science.</em></h2></div>
+          <div class="education-entry reveal"><div class="education-date mono"><span>2019</span><i></i><span>2022</span></div><div><p class="education-degree">Bachelor of Science<br />in Data Science</p><p class="education-school">Jomo Kenyatta University of Agriculture and Technology (JKUAT)<br />Kenya</p><p class="education-coursework"><span class="mono">RELEVANT COURSEWORK</span><br />Statistics & Probability · Machine Learning · Database Systems · Python Programming · Data Visualization · Data Mining</p></div></div>
+        </div>
+        <div class="profile-facts reveal"><div><span class="mono">LANGUAGES</span><p>English <i>Professional</i><br />Kiswahili <i>Fluent</i></p></div><div><span class="mono">WORKING STYLE</span><p>Remote contract & freelance<br />East Africa Time · UTC+3</p></div><div><span class="mono">TOOLS</span><p>Microsoft Excel · Google Sheets<br />Jupyter Notebook · GitHub</p></div></div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="section-kicker mono reveal"><span>05 / CONTACT</span><span>REMOTE · KENYA · EAT UTC+3</span></div>
+        <div class="contact-content reveal"><p class="eyebrow"><span class="eyebrow-line"></span> OPEN TO REMOTE CONTRACT & FREELANCE</p><h2 id="contact-title">Let’s make AI<br /><em class="sapphire-text">more reliable.</em></h2><p class="contact-sub">Available for AI training, response evaluation, annotation,<br />and data quality work.</p>
+          <div class="contact-actions">
+            <a class="contact-button magnetic" href="mailto:elorengo26@gmail.com" data-email-link><span class="contact-button-main">EMAIL LAMECK <i>↗</i></span><span class="contact-button-email" data-email>elorengo26@gmail.com</span></a>
+            <a class="download-cv-button mono" href="assets/Lameck-Orengo-CV.pdf" download="Lameck-Orengo-CV.pdf"><span>DOWNLOAD CV</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <button class="copy-email text-link" type="button" data-copy-email>COPY EMAIL <span aria-hidden="true">＋</span><span class="copy-feedback" aria-live="polite"></span></button>
+          <div class="contact-links mono"><a href="tel:+254705370435">+254 705 370 435 <span>↗</span></a><a href="https://www.linkedin.com/in/lamecorengo" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a></div>
+        </div>
+        <div class="contact-orbit" aria-hidden="true"><span>GOOD REVIEW · BETTER AI · GOOD REVIEW ·</span></div>
+      </section>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="footer-mark" href="#top" aria-label="Back to top">L<span>.</span></a>
+      <p class="footer-credit mono">HUMAN JUDGMENT.<br />DATA SCIENCE.</p>
+      <p class="footer-copyright mono">© <span data-year></span> LAMECK ORENGO<br /><span class="footer-domain">PORTFOLIO.LAMECORENGO.COM</span></p>
+      <a class="back-to-top mono" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    </footer>
+    <div class="cursor-aura" aria-hidden="true"></div>
+  </body>
+</html>
